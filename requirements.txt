@@ -1,0 +1,2 @@
+# Core archived-evidence verification uses Python 3.11 standard library only.
+# No pip dependency is required for verification or tests.

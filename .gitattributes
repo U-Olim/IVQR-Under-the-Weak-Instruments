@@ -1,0 +1,2 @@
+# Preserve the exact bytes recorded in RELEASE_MANIFEST.csv on every checkout.
+* -text

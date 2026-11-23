@@ -1,0 +1,9 @@
+# Attribution and license scope
+
+Original project: [U-Olim/DML-IVQR_Master_Thesis](https://github.com/U-Olim/DML-IVQR_Master_Thesis), checked `journal-validation` revision `acbd06923fc6f1d67a8262b3bc7ad9fe9cb3831a`. The study extends Jau-er Chen, Chien-Hsun Huang and Jia-Jyun Tien's [DML-IVQR work](https://arxiv.org/abs/1909.12592) and its [upstream executable repository](https://github.com/FieldTien/DML-IVQR).
+
+The Oracle wrapper adapts the upstream callback GMM core. The Full wrapper delegates to that core; the DML wrapper adapts the theoretical-penalty fitting/profile route. Their historical source bytes and attribution are preserved. The inspected upstream revision `029af4ab170d83ab7653937e91f835b08327fd9e` had no located redistribution grant in the reviewed license/tree/README/source records; private grants could exist but have not been supplied. Public availability and attribution do not establish permission. No infringement finding is made.
+
+The root `LICENSE` is copied unchanged with its original scope note. It applies only to the specified original software/documentation contributions and does not license all borrowed code, scientific outputs, manuscript assets or dependencies. Do not present this whole candidate as blanket MIT-licensed. Wrapper permission, other code/output/asset ownership and new-contribution terms remain release holds; see the manifest and release status.
+
+No third-party packages or runtime binaries are bundled. The new verification/reporting utilities and tests are separately identified Phase 3/final-implementation contributions; they do not replace the historical algorithms. External action references are commit-pinned and retain their own upstream terms. Final author/holder approval and public license confirmation remain necessary before distribution of the exact contents.
