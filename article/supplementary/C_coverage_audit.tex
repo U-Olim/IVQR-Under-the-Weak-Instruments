@@ -1,0 +1,11 @@
+\section{Coverage Audit and Inferential Informativeness}
+\setcounter{equation}{0}\setcounter{table}{0}\setcounter{figure}{0}
+\label{app:coverage-forensic-audit}
+The frozen audit covers 60,000 direct tests at the exact structural truth: 500 replications in each of 120 sample-size, quantile, relevance and estimator cells. No true-parameter $W$ statistics are missing or nonfinite. Of the pointwise 95\% Wilson intervals, 53 lie below 0.95, one lies above it, and 66 contain it (Table~\ref{tab:coverage-audit-summary}). The comparisons use unrounded endpoints; these are Monte Carlo uncertainty intervals without multiplicity adjustment. A rate's Monte Carlo standard error is not a standard error for a difference between correlated results. The audit rules out missing-value handling and plotting-grid artifacts as explanations for these discrepancies; it does not establish nominal calibration or validate the reference distribution.
+
+\input{tables/appendix_coverage_audit_summary}
+\FloatBarrier
+Direct truth acceptance is a separate candidate evaluation, not membership coverage of the stored finite-grid accepted set. Fresh pivotal draws in DML-IVQR can make these events differ even when truth is a grid point. Figure~\ref{fig:appendix_full_domain_acceptance} uses stored profiles to report acceptance of all 41 points in $A_0=[-1,3]$. Nominal-looking truth acceptance can coexist with little exclusion of false effects. All-grid acceptance establishes neither acceptance between evaluated points nor acceptance of the real line. Appendix~\ref{app:numerical-domain-diagnostics} addresses expansion over finite investigated domains.
+\input{tables/figure_full_domain_acceptance}
+\FloatBarrier
+\clearpage

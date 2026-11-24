@@ -1,7 +1,0 @@
-# Data and code availability — factual draft, not inserted into W3
-
-The study uses simulated data and archived computational outputs. A selected local research-code/evidence repository has been prepared for deterministic verification of the main reported summaries, displayed numeric tables and descriptive reporting views. The target public address is `https://github.com/U-Olim/IVQR-Instrument-Relevance-Monte-Carlo`. **It is not yet a verified public deposit**; public release is pending actual redistribution clearance and both authors' approval of the exact contents. No commit or release should be cited as publicly accessible until uploaded and independently checked.
-
-The preserved historical source repository is `https://github.com/U-Olim/DML-IVQR_Master_Thesis`, with inspected evidence revision `acbd06923fc6f1d67a8262b3bc7ad9fe9cb3831a`. Its presence does not establish that every ignored diagnostic artifact or historical worker RNG state is publicly available. A complete main archived-output verification workflow is distinct from exact historical stochastic replay and complete numerical-certificate replay, both of which remain NOT_VERIFIABLE.
-
-After an actually authorized upload, replace the pending-access statement with the verified repository URL, actual public commit/release identifiers, licensed scope and real access limitations. Do not modify the frozen W3 statement automatically or infer that this draft has been accepted by the journal. No journal submission is part of this task.

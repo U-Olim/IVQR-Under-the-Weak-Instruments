@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "Cite this proposed research-software package and the associated unpublished manuscript. No public release or journal acceptance is asserted."
-title: "Controlled Instrument-Relevance Sensitivity in High-Dimensional IVQR: Monte Carlo Code and Evidence"
+title: "High-Dimensional IVQR under Weak Instruments: Code and Evidence"
 type: software
 version: "1.0.0-candidate"
 authors:
@@ -13,7 +13,7 @@ authors:
 abstract: "Archived-output verification and preserved implementation for a controlled instrument-relevance sensitivity study. Inferential calibration and exact historical stochastic replay are not established."
 preferred-citation:
   type: unpublished
-  title: "Controlled Instrument-Relevance Sensitivity in High-Dimensional IVQR: A Monte Carlo Study"
+  title: "High-Dimensional IVQR under Weak Instruments"
   authors:
     - family-names: "Umurzokov"
       given-names: "Olimjon Umidjon ugli"
