@@ -16,13 +16,13 @@ jobs:
         with:
           python-version: '3.11'
       - name: Essential adversarial tests
-        run: python -B -m unittest discover -s tests -v
+        run: python -B -m unittest discover -s code/tests -v
       - name: Archived records, summaries, displayed tables and complete file inventory
-        run: python -B scripts/verify_evidence.py --output "$RUNNER_TEMP/verification.json"
+        run: python -B code/scripts/verify_evidence.py --output "$RUNNER_TEMP/verification.json"
       - name: Explicit new plotting dependencies, separate from historical R
-        run: python -m pip install -r requirements-figures.txt
+        run: python -m pip install -r code/requirements-figures.txt
       - name: Reconstruct descriptive plots and table views
-        run: python -B scripts/render_outputs.py --output "$RUNNER_TEMP/ivqr-views"
+        run: python -B code/scripts/render_outputs.py --output "$RUNNER_TEMP/ivqr-views"
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:

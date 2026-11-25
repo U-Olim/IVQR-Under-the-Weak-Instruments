@@ -1,2 +1,5 @@
-# Preserve the exact bytes recorded in RELEASE_MANIFEST.csv on every checkout.
+# Preserve evidence bytes recorded in code/RELEASE_MANIFEST.csv on every checkout.
 * -text
+*.pdf binary
+*.png binary
+*.gz binary
