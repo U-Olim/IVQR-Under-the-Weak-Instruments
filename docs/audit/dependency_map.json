@@ -1,0 +1,223 @@
+{
+  "latex": [
+    {
+      "source": "article/main.tex",
+      "command": "input",
+      "target": "article/preamble.tex",
+      "exists": true
+    },
+    {
+      "source": "article/main.tex",
+      "command": "input",
+      "target": "article/sections/01_introduction.tex",
+      "exists": true
+    },
+    {
+      "source": "article/main.tex",
+      "command": "input",
+      "target": "article/sections/02_literature_review.tex",
+      "exists": true
+    },
+    {
+      "source": "article/main.tex",
+      "command": "input",
+      "target": "article/sections/02_framework.tex",
+      "exists": true
+    },
+    {
+      "source": "article/main.tex",
+      "command": "input",
+      "target": "article/sections/03_design.tex",
+      "exists": true
+    },
+    {
+      "source": "article/main.tex",
+      "command": "input",
+      "target": "article/sections/04_results.tex",
+      "exists": true
+    },
+    {
+      "source": "article/main.tex",
+      "command": "input",
+      "target": "article/sections/05_discussion.tex",
+      "exists": true
+    },
+    {
+      "source": "article/main.tex",
+      "command": "input",
+      "target": "article/sections/06_conclusion.tex",
+      "exists": true
+    },
+    {
+      "source": "article/main.tex",
+      "command": "input",
+      "target": "article/sections/submission_declarations.tex",
+      "exists": true
+    },
+    {
+      "source": "article/main.tex",
+      "command": "input",
+      "target": "article/sections/data_availability.tex",
+      "exists": true
+    },
+    {
+      "source": "article/main.tex",
+      "command": "input",
+      "target": "article/supplementary/A_numerical_domain.tex",
+      "exists": true
+    },
+    {
+      "source": "article/main.tex",
+      "command": "input",
+      "target": "article/supplementary/B_kappa_derivation.tex",
+      "exists": true
+    },
+    {
+      "source": "article/main.tex",
+      "command": "input",
+      "target": "article/supplementary/C_coverage_audit.tex",
+      "exists": true
+    },
+    {
+      "source": "article/main.tex",
+      "command": "input",
+      "target": "article/supplementary/D_implementation.tex",
+      "exists": true
+    },
+    {
+      "source": "article/preamble.tex",
+      "command": "addbibresource",
+      "target": "article/references.bib",
+      "exists": true
+    },
+    {
+      "source": "article/review.tex",
+      "command": "input",
+      "target": "article/main.tex",
+      "exists": true
+    },
+    {
+      "source": "article/sections/04_results.tex",
+      "command": "input",
+      "target": "article/tables/table_strength_calibration.tex",
+      "exists": true
+    },
+    {
+      "source": "article/sections/04_results.tex",
+      "command": "input",
+      "target": "article/tables/table_main_performance.tex",
+      "exists": true
+    },
+    {
+      "source": "article/sections/04_results.tex",
+      "command": "input",
+      "target": "article/tables/figure_coverage_main.tex",
+      "exists": true
+    },
+    {
+      "source": "article/sections/04_results.tex",
+      "command": "input",
+      "target": "article/tables/figure_power_main.tex",
+      "exists": true
+    },
+    {
+      "source": "article/sections/04_results.tex",
+      "command": "input",
+      "target": "article/tables/figure_accepted_measure_main.tex",
+      "exists": true
+    },
+    {
+      "source": "article/supplementary/A_numerical_domain.tex",
+      "command": "input",
+      "target": "article/tables/generated/appendix_grid_diagnostic.tex",
+      "exists": true
+    },
+    {
+      "source": "article/supplementary/A_numerical_domain.tex",
+      "command": "input",
+      "target": "article/tables/generated/figure_grid_domain.tex",
+      "exists": true
+    },
+    {
+      "source": "article/supplementary/B_kappa_derivation.tex",
+      "command": "input",
+      "target": "article/tables/appendix_kappa_illustration.tex",
+      "exists": true
+    },
+    {
+      "source": "article/supplementary/C_coverage_audit.tex",
+      "command": "input",
+      "target": "article/tables/appendix_coverage_audit_summary.tex",
+      "exists": true
+    },
+    {
+      "source": "article/supplementary/C_coverage_audit.tex",
+      "command": "input",
+      "target": "article/tables/figure_full_domain_acceptance.tex",
+      "exists": true
+    },
+    {
+      "source": "article/tables/figure_accepted_measure_main.tex",
+      "command": "includegraphics",
+      "target": "article/figures/generated/accepted_measure_n500.png",
+      "exists": true
+    },
+    {
+      "source": "article/tables/figure_accepted_measure_main.tex",
+      "command": "includegraphics",
+      "target": "article/figures/generated/accepted_measure_n1000.png",
+      "exists": true
+    },
+    {
+      "source": "article/tables/figure_coverage_main.tex",
+      "command": "includegraphics",
+      "target": "article/figures/generated/coverage_heatmap.pdf",
+      "exists": true
+    },
+    {
+      "source": "article/tables/figure_full_domain_acceptance.tex",
+      "command": "includegraphics",
+      "target": "article/figures/generated/full_domain_acceptance_heatmap.pdf",
+      "exists": true
+    },
+    {
+      "source": "article/tables/figure_power_main.tex",
+      "command": "includegraphics",
+      "target": "article/figures/generated/power_median_combined.pdf",
+      "exists": true
+    },
+    {
+      "source": "article/tables/generated/figure_grid_domain.tex",
+      "command": "includegraphics",
+      "target": "article/figures/grid_domain_expansion.png",
+      "exists": true
+    }
+  ],
+  "canonical_outputs": {
+    "named_pdf": {
+      "source": "article/main.tex",
+      "destination": "submission/High_Dimensional_IVQR_Under_Weak_Instruments.pdf"
+    },
+    "anonymous_pdf": {
+      "source": "article/review.tex -> article/main.tex",
+      "destination": "submission/High_Dimensional_IVQR_Under_Weak_Instruments_anonymous.pdf"
+    },
+    "portal_abstract": "docs/submission_abstract.txt"
+  },
+  "scientific_chain": {
+    "historical_definitions": "code/src/load_implementation.R -> environment/check_author_environment.R, config/extension_config.R, dgp_kappa.R, author_oracle_wrapper.R, author_full_wrapper.R, author_bc_dml_wrapper.R, metrics.R, run_extension.R; static dependency check only",
+    "frozen_outputs": "code/results/main/n{500,1000}/{results.csv.gz,profiles.csv.gz,power.csv.gz,summary.csv,power_summary.csv,failures.csv}",
+    "calibration": "code/data/kappa_strength_raw.csv -> code/data/kappa_strength_summary.csv",
+    "validation": "code/results/diagnostics/*.csv -> article/supplementary/{A_numerical_domain,C_coverage_audit,D_implementation}.tex",
+    "table_references": "code/data/reference_tables/*.tex -> verify_evidence.py; article/tables/*.tex -> main.tex",
+    "reporting": "code/results/main/*/{summary.csv,power_summary.csv}, code/data/kappa_strength_summary.csv -> code/scripts/render_outputs.py -> code/figures/*.svg, code/results/views/*.csv",
+    "manifest": "code/RELEASE_MANIFEST.csv seals all 47 other code payloads; verifies stored and decompressed CSV hashes",
+    "checks": "code/tests/test_verification.py -> code/scripts/verify_evidence.py; .github/workflows/verification.yml runs archived checks and reporting only"
+  },
+  "missing_historical_prerequisites": [
+    "Main worker-specific RNG and full penalty states",
+    "Original numerical inputs/certificate pipeline and referenced exact-face prerequisite",
+    "Historical runtime/environment root, supplied separately; loader intentionally stops without it"
+  ],
+  "constraints": "No research algorithms, evidence bytes, numerical conclusions or historical expected hashes changed."
+}

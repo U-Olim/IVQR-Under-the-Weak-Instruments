@@ -1,0 +1,408 @@
+{
+  "before_summary": {
+    "files": 164,
+    "bytes": 46770943,
+    "exact_groups": 38,
+    "redundant_instances": 41,
+    "near_pairs": 9,
+    "latex_edges": 32,
+    "missing_dependencies": [],
+    "top_level": {
+      ".gitattributes": 1,
+      ".github": 1,
+      ".gitignore": 1,
+      "article": 33,
+      "CITATION.cff": 1,
+      "code": 48,
+      "docs": 6,
+      "LICENSE": 1,
+      "README.md": 1,
+      "submission": 71
+    }
+  },
+  "before_exact_groups": [
+    {
+      "sha256": "bc651eed8ba198a910b0677eef14941cef424c740a495333fbda34a43a9c1ce3",
+      "paths": [
+        "article/figures/generated/accepted_measure_n1000.png",
+        "submission/technical_correction_2026-11-26/source/article/figures/generated/accepted_measure_n1000.png"
+      ]
+    },
+    {
+      "sha256": "c00364b6ac420432c21f2efb20e0c65d7d456e4d3a687287868128c0be34fca3",
+      "paths": [
+        "article/figures/generated/accepted_measure_n500.png",
+        "submission/technical_correction_2026-11-26/source/article/figures/generated/accepted_measure_n500.png"
+      ]
+    },
+    {
+      "sha256": "6a338dcf4645e6b1ff3c35708a2d3e05fae6a5e747664c1eb7f5e5f8e4681a64",
+      "paths": [
+        "article/figures/generated/coverage_heatmap.pdf",
+        "submission/technical_correction_2026-11-26/source/article/figures/generated/coverage_heatmap.pdf"
+      ]
+    },
+    {
+      "sha256": "1f0154bd26a6e2810461c92426432230b7a92bbac1d21c2958b92288a609a795",
+      "paths": [
+        "article/figures/generated/full_domain_acceptance_heatmap.pdf",
+        "submission/technical_correction_2026-11-26/source/article/figures/generated/full_domain_acceptance_heatmap.pdf"
+      ]
+    },
+    {
+      "sha256": "e9ee6f46f71087558479557603339f4239685ec71d491f70932f2d4b731d33bf",
+      "paths": [
+        "article/figures/generated/power_median_combined.pdf",
+        "submission/technical_correction_2026-11-26/source/article/figures/generated/power_median_combined.pdf"
+      ]
+    },
+    {
+      "sha256": "1f0b267e980474ba60b1dbdb8b7999c4e71a87edc28f845cae6467f9e0a91de4",
+      "paths": [
+        "article/figures/grid_domain_expansion.png",
+        "submission/technical_correction_2026-11-26/source/article/figures/grid_domain_expansion.png"
+      ]
+    },
+    {
+      "sha256": "137d6a33b65fba422d7c53650308f1ce95f4b30e1e33dcdd3241c35d0f6af078",
+      "paths": [
+        "article/preamble.tex",
+        "submission/technical_correction_2026-11-26/source/article/preamble.tex"
+      ]
+    },
+    {
+      "sha256": "674f9ac99bc195711a08d96d26e2aa130c8f223ca30cf1e3e4559df2aa915e7d",
+      "paths": [
+        "article/references.bib",
+        "submission/technical_correction_2026-11-26/source/article/references.bib"
+      ]
+    },
+    {
+      "sha256": "a852a4bfa402fe24b0da56329e75f953f589ca6445900e76cc1f0ed794615479",
+      "paths": [
+        "article/review.tex",
+        "submission/technical_correction_2026-11-26/source/article/review.tex"
+      ]
+    },
+    {
+      "sha256": "3225b85757e9817f8d54cbd456ea58aa22482e7637c9418a973b96f551eb2ffe",
+      "paths": [
+        "article/sections/01_introduction.tex",
+        "submission/technical_correction_2026-11-26/source/article/sections/01_introduction.tex"
+      ]
+    },
+    {
+      "sha256": "9041e94c0ccdfe3a4829f14fe5ebfc2ce24c7cd705efdf68c7e705dc1c6847d6",
+      "paths": [
+        "article/sections/02_framework.tex",
+        "submission/technical_correction_2026-11-26/source/article/sections/02_framework.tex"
+      ]
+    },
+    {
+      "sha256": "921b16db1842305c1443fbb6ea3d4c63315dde4c97d8ec68a0cfd5cd3aaff77a",
+      "paths": [
+        "article/sections/02_literature_review.tex",
+        "submission/technical_correction_2026-11-26/source/article/sections/02_literature_review.tex"
+      ]
+    },
+    {
+      "sha256": "a506c1861611cd41862f46b5c6b2e572a5a34337d234de83afa4133bee67e3c0",
+      "paths": [
+        "article/sections/03_design.tex",
+        "submission/technical_correction_2026-11-26/source/article/sections/03_design.tex"
+      ]
+    },
+    {
+      "sha256": "ce92d318fa4c44de8ef8f4e01c396fc10dc76ce9339f1e32ef47fd0b96f62898",
+      "paths": [
+        "article/sections/04_results.tex",
+        "submission/technical_correction_2026-11-26/source/article/sections/04_results.tex"
+      ]
+    },
+    {
+      "sha256": "9105a043897c504ce4488f41f5e0b82da80cb5b0a0843a6fa1b0656be9972a96",
+      "paths": [
+        "article/sections/05_discussion.tex",
+        "submission/technical_correction_2026-11-26/source/article/sections/05_discussion.tex"
+      ]
+    },
+    {
+      "sha256": "bb3c16f4cc3f2bbb5f7aae72384276a3b73daac7376a3a7f33e2351dae623c83",
+      "paths": [
+        "article/sections/06_conclusion.tex",
+        "submission/technical_correction_2026-11-26/source/article/sections/06_conclusion.tex"
+      ]
+    },
+    {
+      "sha256": "a0bafba62419ab698ab0312f5f21ea9f317fb2120ef36fe0dd88b24c9189a977",
+      "paths": [
+        "article/sections/data_availability.tex",
+        "submission/technical_correction_2026-11-26/source/article/sections/data_availability.tex"
+      ]
+    },
+    {
+      "sha256": "7a415426031bb726261c65d8f950700b2638af14eda8dc348dfc7d5fb6bf8abb",
+      "paths": [
+        "article/sections/submission_declarations.tex",
+        "submission/technical_correction_2026-11-26/source/article/sections/submission_declarations.tex"
+      ]
+    },
+    {
+      "sha256": "bd9a857a7c4bc89441f1edf12519ebfea28b266e49eaac0eba97a9c9bfd280ea",
+      "paths": [
+        "article/supplementary/A_numerical_domain.tex",
+        "submission/technical_correction_2026-11-26/source/article/supplementary/A_numerical_domain.tex"
+      ]
+    },
+    {
+      "sha256": "bf48bfbf8565d4bc91ed605d874a8953808187553a5751b01291700df3034915",
+      "paths": [
+        "article/supplementary/B_kappa_derivation.tex",
+        "submission/technical_correction_2026-11-26/source/article/supplementary/B_kappa_derivation.tex"
+      ]
+    },
+    {
+      "sha256": "ebdef278845c4c43a779d154da047e0ac0b15cd7842854056bf5f20174be6b7f",
+      "paths": [
+        "article/supplementary/C_coverage_audit.tex",
+        "submission/technical_correction_2026-11-26/source/article/supplementary/C_coverage_audit.tex"
+      ]
+    },
+    {
+      "sha256": "ebfd39e4de0663bdb0c8e19536bd6302dcc04e6b35d2dda93a1a15fafff75880",
+      "paths": [
+        "article/supplementary/D_implementation.tex",
+        "submission/technical_correction_2026-11-26/source/article/supplementary/D_implementation.tex"
+      ]
+    },
+    {
+      "sha256": "3f32d185bbad621e2bf6f5f3c01f731bf04f1683a60b718a09e9def6dd52d364",
+      "paths": [
+        "article/tables/appendix_coverage_audit_summary.tex",
+        "submission/technical_correction_2026-11-26/source/article/tables/appendix_coverage_audit_summary.tex"
+      ]
+    },
+    {
+      "sha256": "1109e6dabd4b7672737b3814d0418026ff5971d3dae56f7ed23d080e5ab78bf6",
+      "paths": [
+        "article/tables/appendix_kappa_illustration.tex",
+        "submission/technical_correction_2026-11-26/source/article/tables/appendix_kappa_illustration.tex"
+      ]
+    },
+    {
+      "sha256": "d4aafcd130a1a4eddac4aaf5c7fde36e9c9e913d11a1f220c45eda113f05863b",
+      "paths": [
+        "article/tables/figure_accepted_measure_main.tex",
+        "submission/technical_correction_2026-11-26/source/article/tables/figure_accepted_measure_main.tex"
+      ]
+    },
+    {
+      "sha256": "93ff449cf07840d7e4332a775175a510e96555f341d4f8b24f9ca62904514fbf",
+      "paths": [
+        "article/tables/figure_coverage_main.tex",
+        "submission/technical_correction_2026-11-26/source/article/tables/figure_coverage_main.tex"
+      ]
+    },
+    {
+      "sha256": "562951ad323291f2624046c0e2c2cc71e8456c99572e2b4f2514e22bb0d7f768",
+      "paths": [
+        "article/tables/figure_full_domain_acceptance.tex",
+        "submission/technical_correction_2026-11-26/source/article/tables/figure_full_domain_acceptance.tex"
+      ]
+    },
+    {
+      "sha256": "e8f5911f4edad8470ff143b9a31cca6b394c8870210abf77dd472f40d2e25aab",
+      "paths": [
+        "article/tables/figure_power_main.tex",
+        "submission/technical_correction_2026-11-26/source/article/tables/figure_power_main.tex"
+      ]
+    },
+    {
+      "sha256": "33db7cfd86e8f8ce713a37074038131bddb034c404501e9543e8adbc9ec46f6c",
+      "paths": [
+        "article/tables/generated/appendix_grid_diagnostic.tex",
+        "submission/technical_correction_2026-11-26/source/article/tables/generated/appendix_grid_diagnostic.tex"
+      ]
+    },
+    {
+      "sha256": "5e63bc3e4abc004e407dffce9d8989ea0ee2fd2970bc4e016a622b6b608a3c30",
+      "paths": [
+        "article/tables/generated/figure_grid_domain.tex",
+        "submission/technical_correction_2026-11-26/source/article/tables/generated/figure_grid_domain.tex"
+      ]
+    },
+    {
+      "sha256": "bc736a83a630de008125e1cd7a6e4666e6e5f390b8e61452561ff85d31a87738",
+      "paths": [
+        "article/tables/table_main_performance.tex",
+        "code/data/reference_tables/table_main_performance.tex",
+        "submission/technical_correction_2026-11-26/source/article/tables/table_main_performance.tex"
+      ]
+    },
+    {
+      "sha256": "972f24c735a65894e949f6d587313f88df426c504c715059488af47e1f5986f1",
+      "paths": [
+        "article/tables/table_strength_calibration.tex",
+        "code/data/reference_tables/table_strength_calibration.tex",
+        "submission/technical_correction_2026-11-26/source/article/tables/table_strength_calibration.tex"
+      ]
+    },
+    {
+      "sha256": "345c084f403a28d060fe0ec6abc3029cc525a86677519f62ccd19304b938444e",
+      "paths": [
+        "code/results/diagnostics/stage2_failures.csv",
+        "code/results/main/n1000/failures.csv",
+        "code/results/main/n500/failures.csv"
+      ]
+    },
+    {
+      "sha256": "a3dbe4c2d63fc54d0d69ea4632425778c77339056695c2efce28050a338cb2ea",
+      "paths": [
+        "submission/technical_correction_2026-11-26/build-anonymous/review.bbl",
+        "submission/technical_correction_2026-11-26/build-named/main.bbl"
+      ]
+    },
+    {
+      "sha256": "c1caf67fd7c1722ed6758b4ae5e1aba62c10cd5d6018ebcae069c63aa3a1b7bc",
+      "paths": [
+        "submission/technical_correction_2026-11-26/build-anonymous/review.bcf",
+        "submission/technical_correction_2026-11-26/build-named/main.bcf"
+      ]
+    },
+    {
+      "sha256": "be9685b63c77244c242233915a795fc7f0219dae081769e65cb76cbe4d270a7a",
+      "paths": [
+        "submission/technical_correction_2026-11-26/build-anonymous/review.out",
+        "submission/technical_correction_2026-11-26/build-named/main.out"
+      ]
+    },
+    {
+      "sha256": "434ee460cffb72e63a3e8a2ed0752a81e15be566465b00d3292e2bd69ec73522",
+      "paths": [
+        "submission/technical_correction_2026-11-26/build-anonymous/review.pdf",
+        "submission/technical_correction_2026-11-26/High_Dimensional_IVQR_Under_Weak_Instruments_anonymous_corrected.pdf"
+      ]
+    },
+    {
+      "sha256": "cd3cfbeb23c807a35ec3e8da51d694de8217e07ffde097a45b44d93d04927fe5",
+      "paths": [
+        "submission/technical_correction_2026-11-26/build-named/main.pdf",
+        "submission/technical_correction_2026-11-26/High_Dimensional_IVQR_Under_Weak_Instruments_named_corrected.pdf"
+      ]
+    }
+  ],
+  "before_near_pairs": [
+    {
+      "first": "article/main.tex",
+      "second": "submission/technical_correction_2026-11-26/source/article/main.tex",
+      "token_overlap": 0.974398
+    },
+    {
+      "first": "code/data/kappa_strength_summary.csv",
+      "second": "code/results/views/strength_calibration.csv",
+      "token_overlap": 1.0
+    },
+    {
+      "first": "code/results/main/n1000/power_summary.csv",
+      "second": "code/results/main/n500/power_summary.csv",
+      "token_overlap": 0.889372
+    },
+    {
+      "first": "submission/technical_correction_2026-11-26/corrected-anonymous.txt",
+      "second": "submission/technical_correction_2026-11-26/corrected-named.txt",
+      "token_overlap": 0.995359
+    },
+    {
+      "first": "submission/technical_correction_2026-11-26/corrected-anonymous.txt",
+      "second": "submission/technical_correction_2026-11-26/previous-anonymous.txt",
+      "token_overlap": 0.998956
+    },
+    {
+      "first": "submission/technical_correction_2026-11-26/corrected-anonymous.txt",
+      "second": "submission/technical_correction_2026-11-26/previous-named.txt",
+      "token_overlap": 0.994594
+    },
+    {
+      "first": "submission/technical_correction_2026-11-26/corrected-named.txt",
+      "second": "submission/technical_correction_2026-11-26/previous-anonymous.txt",
+      "token_overlap": 0.994369
+    },
+    {
+      "first": "submission/technical_correction_2026-11-26/corrected-named.txt",
+      "second": "submission/technical_correction_2026-11-26/previous-named.txt",
+      "token_overlap": 0.998961
+    },
+    {
+      "first": "submission/technical_correction_2026-11-26/previous-anonymous.txt",
+      "second": "submission/technical_correction_2026-11-26/previous-named.txt",
+      "token_overlap": 0.99535
+    }
+  ],
+  "interpretation": {
+    "32_matching_article_files": "Redundant correction source hierarchy removed; canonical assets retained",
+    "2_additional_exact_PDF_pairs": "Corrected deliverable/build copies removed after rebuilt canonical PDFs verified",
+    "paired_Biber_auxiliary_outputs": "Generated bibliography, BCF and outlines removed with correction build directories",
+    "two_reference_table_pairs": "Retained: immutable scientific reference versus live displayed manuscript tables",
+    "three_empty_failure_ledgers": "Retained: separate main n500, main n1000 and domain diagnostic failure records; header equality does not make their design-specific roles redundant",
+    "calibration_summary_vs_view": "Same parsed 8-row records, different quoting/bytes; retained as canonical calibration evidence and sealed reproducible reporting view",
+    "n500_vs_n1000_power_summaries": "Near-duplicate schema, different sample-size results: retain both",
+    "named_vs_anonymous_and_prior_text_exports": "Generated comparison outputs; removed after verification and preserved externally"
+  },
+  "after_summary": {
+    "files": 104,
+    "exact_groups": 3,
+    "redundant_instances": 4,
+    "near_pairs": 2,
+    "latex_edges": 32,
+    "missing_dependencies": [],
+    "top_level": {
+      ".gitattributes": 1,
+      ".github": 1,
+      ".gitignore": 1,
+      "article": 33,
+      "CITATION.cff": 1,
+      "code": 48,
+      "docs": 13,
+      "LICENSE": 1,
+      "README.md": 1,
+      "scripts": 2,
+      "submission": 2
+    }
+  },
+  "after_exact_groups": [
+    {
+      "sha256": "bc736a83a630de008125e1cd7a6e4666e6e5f390b8e61452561ff85d31a87738",
+      "paths": [
+        "article/tables/table_main_performance.tex",
+        "code/data/reference_tables/table_main_performance.tex"
+      ]
+    },
+    {
+      "sha256": "972f24c735a65894e949f6d587313f88df426c504c715059488af47e1f5986f1",
+      "paths": [
+        "article/tables/table_strength_calibration.tex",
+        "code/data/reference_tables/table_strength_calibration.tex"
+      ]
+    },
+    {
+      "sha256": "345c084f403a28d060fe0ec6abc3029cc525a86677519f62ccd19304b938444e",
+      "paths": [
+        "code/results/diagnostics/stage2_failures.csv",
+        "code/results/main/n1000/failures.csv",
+        "code/results/main/n500/failures.csv"
+      ]
+    }
+  ],
+  "after_near_pairs": [
+    {
+      "first": "code/data/kappa_strength_summary.csv",
+      "second": "code/results/views/strength_calibration.csv",
+      "token_overlap": 1.0
+    },
+    {
+      "first": "code/results/main/n1000/power_summary.csv",
+      "second": "code/results/main/n500/power_summary.csv",
+      "token_overlap": 0.889372
+    }
+  ]
+}

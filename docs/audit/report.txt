@@ -1,0 +1,83 @@
+Repository audit and submission cleanup - 26 November 2026
+
+OUTCOME
+The existing article/code/docs layout was retained because its dependencies are coherent. The corrected abstract line is now in the single authoritative article/main.tex. The submission directory contains only the freshly rebuilt named and anonymous PDFs. The redundant dated correction tree has been removed after every removed file was verified against a complete external checkpoint. No simulations, estimator fits, history rewrites, Git staging/commits or remote pushes were performed.
+
+CHECKPOINT AND INITIAL GIT STATE
+Branch: main, tracking origin/main; HEAD f6dee8e7fb46c53aa3ea5affb6df1d55a351e606.
+Existing uncommitted changes were two deleted tracked hyphenated submission PDFs, two untracked underscore-named previous PDFs, and the untracked correction folder (including ignored build products). These were recorded before work; the existing tracked deletions remain. No unrelated changes were discarded.
+Full external checkpoint: C:\Users\User\AppData\Local\Temp\ivqr-audit-checkpoint-20261126-7iyynn9q
+It includes the entire working tree, ignored/untracked files, all .git metadata, SHA-256 before_inventory.json, original Git status/branches/history, the pre-execution file-level cleanup plan, and history.bundle. All 4,828 initial files were copied and hash-verified: 164 project payload files plus 4,664 Git metadata/object files. git bundle verify passed and records complete referenced history. Current build logs, PDF renders/text/metadata, original and final inventories, detailed verification and reconstructed reporting outputs are also stored there. Retain this checkpoint; it is in the system temporary directory and is not a permanent public research deposit.
+
+STRUCTURE BEFORE (164 project files; 46,770,943 bytes; .git excluded)
+article/       33  authoritative source, but missing the editorial insertion
+code/          48  sealed implementation, results, diagnostics, reporting, tests
+submission/    71  two old PDFs plus 69 correction-source/build/report files
+                  including a second 33-file article tree and redundant PDFs
+                  and compilation products
+docs/           6  limitations, reproducibility, provenance and historical cleanup
+root + .github  6  metadata, README, ignore/attribute rules, CI
+.git/       4,664  copied/hashed; not treated as expendable build files
+
+STRUCTURE AFTER
+article/       33  single corrected source, bibliography, 6 figure assets,
+                  10 table/figure wrappers, sections and Appendices A-D
+code/          48  every original file retained byte-for-byte
+submission/     2  only current named and anonymous manuscript PDFs
+docs/           7  original 6 documents plus current portal abstract
+  audit/        6  this report, before inventory, file actions, dependency map,
+                  duplicate audit and verification evidence
+scripts/        2  external manuscript build helper and read-only payload audit
+root + .github  6  existing metadata and CI, with current path/ignore guidance
+Final project file count: 104
+Final project bytes: 39,732,150
+Net project working-tree storage recovered: 7,038,793 bytes (6.713 MiB).
+This is logical payload-size reduction, not allocated-block measurement. Backup storage is retained externally, and Git objects/history were not pruned; no net whole-disk-space saving is claimed.
+
+DUPLICATES AND SUBSTANTIVE REVIEW
+All current project payloads, including ignored products, were hashed. Twelve PDFs were inspected using SHA-256, extracted raw text, page counts and document metadata; these included six source/figure duplicates, two old manuscripts, and four corrected/build manuscript copies. All manuscript versions have 33 pages. The two old top-level PDFs lacked the editorial sentence; only the correction variants had it. The ZIP's article members were checked against the corrected source hierarchy, not merely judged by its name.
+Before cleanup: 38 exact SHA-256 duplicate groups, 41 redundant instances. The file-level groups are in duplicate_audit.json. Thirty-two of the correction source/asset files exactly matched the canonical article files; the master differed solely by the approved editorial insertion. Corrected/build PDF pairs and generated Biber products were also duplicates.
+Nine near-duplicate pairs were flagged by >=85% token-multiset overlap with a >=70% text-length ratio, then reviewed substantively. These comprise the master pair, six previous/corrected named/anonymous text-export pairs, the calibration data/reporting-view pair, and the n500/n1000 power-summary pair. This screen is not an exhaustive proof of semantic similarity. All R modules were also inspected by their loader/function dependencies: the six scientific modules are still used together, and no current research implementation was established to be obsolete.
+Final exact duplicates: three intentional groups (four redundant instances):
+- article/tables/table_main_performance.tex and code/data/reference_tables/table_main_performance.tex;
+- article/tables/table_strength_calibration.tex and code/data/reference_tables/table_strength_calibration.tex;
+- the header-only main n500, main n1000 and diagnostic failure ledgers.
+The reference tables have distinct manuscript/reference-check roles. Each failure ledger documents a separate design/pipeline, even though all contain the same empty-record schema. Removing these would break the sealed evidence inventory or weaken transparency.
+The calibration summary and strength_calibration reporting view have identical parsed CSV records but different quoting/bytes. They remain as canonical evidence and a verifiable derived view. Similar n500/n1000 schemas encode distinct simulation results and are retained. Original article PDF/PNG assets and reconstructed code/figures SVGs serve different purposes; the latter are not replacements for paper figures.
+No unused article asset was found: all 33 files are reachable through 32 input/graphics/bibliography edges from main/review. No unique local numerical certificate was found or removed. Uncertain historical material and the known missing certificate prerequisites remain explicitly documented.
+
+FILE-LEVEL ACTIONS AND CANONICAL PATHS
+See inventory_before.csv for original sizes/hashes and file_actions.csv for each original payload's classification/action/reason plus new deliverables.
+Removed from active tree: exactly the 69-file technical_correction_2026-11-26 hierarchy, after backup hashes were verified. Its unique reports, diff, original hash inventory, ZIP, text exports, first-page images and logs remain in the external checkpoint. The corrected master was incorporated, and the portal abstract was relocated byte-for-byte to docs/submission_abstract.txt before removal.
+Replaced: the two pre-correction underscore PDFs, using verified fresh builds; originals remain recoverable. The pre-existing tracked deletions of the old hyphenated PDFs were not reversed. No new dated submission directory was created.
+Updated: article/main.tex by one previously approved braced line; README, .gitignore, .gitattributes and current reproducibility/status guidance. CLEANUP.md remains an explicitly dated historical record, with a pointer to this current audit. The known target journal is now recorded, and its supplied unsubmitted status is preserved. CRLF whitespace attributes avoid false Git warnings without normalizing scientific source bytes.
+Added: scripts/build_manuscripts.ps1 (requires a new external output directory, compiles both variants, restores locale), scripts/audit_repository.py (read-only inventory/duplicate/dependency helper), and the compact docs/audit records.
+Retained unchanged: all 48 code files, all 32 non-master article assets, LICENSE, third-party notices, methodological limitations, historical dependency inventories and numerical-sensitivity disclosures. No cover letter was found or invented. Appendices A-D remain embedded in both PDFs; no duplicate supplementary upload was invented without a journal requirement.
+Canonical master: article/main.tex; anonymous entry: article/review.tex.
+Canonical PDFs:
+ submission/High_Dimensional_IVQR_Under_Weak_Instruments.pdf
+ submission/High_Dimensional_IVQR_Under_Weak_Instruments_anonymous.pdf
+Portal text: docs/submission_abstract.txt.
+Canonical numerical evidence and implementation: code/RELEASE_MANIFEST.csv and its sealed code/ subtree. File-level source origins, original hashes, lossless gzip transforms and rights flags remain unchanged. The dependency_map.json records the source -> frozen evidence -> validation -> manuscript/reporting relationships and external replay prerequisites.
+
+VERIFICATION ACTUALLY PERFORMED
+1. Before/after SHA-256 comparison: all code files, including the manifest, unchanged; all non-master article assets unchanged. Removing the one inserted editorial line reproduces the pre-correction master byte-for-byte. Scientific source/abstract content, numerical conclusions, limitations and validation disclosures were not revised.
+2. Both canonical manuscripts freshly compiled with pdfLaTeX, Biber, then two further pdfLaTeX passes (-no-shell-escape; recorder enabled). Both have 33 pages. Their extracted content matches the respective saved corrected originals exactly after ignoring whitespace (Windows extraction/write line endings differ). Bibliography outputs are byte-identical to their prior corrected builds. Thus figures, tables, citations and appendices were retained. Every graphic, input and bibliography dependency exists.
+3. Both first pages rendered and visually inspected: curly-bracket sentence is first under Abstract; brackets are visible; existing abstract, keywords and introduction are legible without clipping/overlap.
+4. Final log warning in each build: 'Package epstopdf Warning: Shell escape feature is not enabled.' Existing PDF/PNG figures require no EPS conversion. No final undefined references/citations, multiply-defined labels, rerun requests, Biber warnings/errors, overfull or underfull boxes were found.
+5. Named/anonymous comparison: same source and assets; anonymity conditionals are confined to author block, PDF metadata and two identifying availability paragraphs. After removing those intentional text differences and pagination/hyphenation, extracted scientific-body character inventories match (91,656 characters each). Float placement varies with the author block, so this unordered inventory is supplementary to the common-source and separate exact-baseline checks, not an assertion of identical paragraph order in PDF extraction.
+6. Anonymous PDF: no author names, affiliation, emails, ORCIDs, identifying repository URL/commit found in extracted text, pdfinfo/XMP output, link annotations or XML representation. Author/Subject/Keywords metadata are empty; no XMP metadata stream and zero embedded files. Referenced researchers and DOI bibliography links are preserved. This is an inspection for the authors' identifiers, not a guarantee against all possible contextual reidentification.
+7. Six adversarial unit tests passed before and after cleanup. Sealed evidence verifier passed before and after: SHA-256 inventory, all stored/decompressed source hashes, 60,000 estimator records in 120 cells, main-summary consistency, 360,000 false-candidate evaluations, 2,460,000 finite-grid records, 800 calibration records and 228 displayed numeric table values. No original R or estimator code was imported/executed.
+8. Reporting reproduction passed in the installed pinned reporting environment: all five SVG and two CSV outputs regenerated outside the repository and matched bundled SHA-256 hashes exactly (--compare-bundled). export_findings.py also passed; the 0.942/3.900/0.094 contrast and documented rankings remain unchanged. No cutoff recalibration or statistical validation is implied.
+9. Static paths: all 33 manuscript assets reachable, eight R-loader targets exist, README commands exercised, relative Markdown links checked. Frozen code docs occasionally use repository-root-relative prose paths; these were not treated as source dependencies or changed inside the sealed subtree. Provenance source_path fields and historical IDs are retained as historical references, not asserted to be current files.
+10. Duplicate audit repeated after cleanup, including ignored files. Git diff/status and whitespace checks inspected; existing uncommitted work recorded. Active branch/HEAD unchanged, no .git history garbage collection/rewrite, no commit or push. Current submission directory has exactly the two expected PDFs and no build artifacts.
+
+UNCERTAINTIES / EXISTING LIMITS
+The old 24 November cleanup record refers to an external archive not located in the current TEMP directory. The present checkpoint protects the complete current state and referenced Git history, not an assertion that every previously excluded numerical pipeline is now recovered. Original certificate arrays/pipelines, the exact-face prerequisite, main worker penalty/RNG states, raw domain-profile reconstruction and portable historical runtime remain unavailable or unverified. The preserved diagnostic summaries were not regenerated from missing certificates. The nominal chi-square inference remains scientifically unestablished, as disclosed in the unchanged manuscript.
+The supplied curly-bracket editorial request is satisfied. Full current journal upload/anonymity rules, any required anonymous evidence deposit, both-author exact-scope approval, asset/output/upstream wrapper redistribution rights, public repository access and a permanent deposit identifier are still unresolved in the existing release documentation. No external approvals or public publication were inferred. The official journal URL previously returned HTTP 403; this maintenance did not independently verify all live journal instructions. PDFs are technically prepared, but unconditional submission/release readiness cannot be certified from this repository.
+
+ASSESSMENTS
+REPOSITORY CLEANLINESS: PASS - one authoritative source and two current submission PDFs; only justified scientific duplicates remain.
+SUBMISSION READINESS: FAIL - technical PDF/editorial checks pass, but recorded clearance/deposit/full-journal-rule issues remain unresolved.
+SCIENTIFIC INTEGRITY: PASS - byte-preservation of evidence/algorithms and substantive manuscript content; this is not a validation of nominal inference.
+REPRODUCIBILITY: FAIL - complete historical stochastic/certificate replay is not established. Supported archived verification, manuscript builds and saved-data reporting: PASS.

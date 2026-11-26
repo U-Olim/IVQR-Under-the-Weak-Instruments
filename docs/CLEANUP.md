@@ -1,4 +1,6 @@
-# Final cleanup and verification
+# Earlier cleanup and verification (24 November 2026)
+
+This is the historical cleanup record, including its original counts and verification claims. The subsequent full-tree audit, editorial-source consolidation and current verification are recorded in [audit/report.txt](audit/report.txt). Current submission filenames use underscores as documented in the root README; no dated correction directory is retained.
 
 Prepared locally on 24 November 2026. No simulation, pilot, recalibration, estimator execution, push, publication or submission was performed.
 

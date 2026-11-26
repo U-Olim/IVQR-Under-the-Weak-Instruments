@@ -3,3 +3,5 @@
 *.pdf binary
 *.png binary
 *.gz binary
+# Existing LaTeX sources retain CRLF bytes; do not flag carriage returns as spaces.
+*.tex whitespace=cr-at-eol

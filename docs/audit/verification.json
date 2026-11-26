@@ -1,0 +1,171 @@
+{
+  "pdf_builds": [
+    {
+      "variant": "named",
+      "pages": 33,
+      "baseline_pdf_content_identical_ignoring_whitespace": true,
+      "editorial_statement": true,
+      "bbl_identical": true,
+      "anonymous_identifier_scan": false,
+      "warnings": [
+        "Package epstopdf Warning: Shell escape feature is not enabled."
+      ],
+      "sha256": "33e38d9b93e21426314ec52dc068c9d3e33e5cc92f8831dfa32a563e6ceeb5b3"
+    },
+    {
+      "variant": "anonymous",
+      "pages": 33,
+      "baseline_pdf_content_identical_ignoring_whitespace": true,
+      "editorial_statement": true,
+      "bbl_identical": true,
+      "anonymous_identifier_scan": true,
+      "warnings": [
+        "Package epstopdf Warning: Shell escape feature is not enabled."
+      ],
+      "sha256": "6b4cd84775d1f58cce8aadcc21d7dfd3ff58e784d62ebd716cb43bb3d033ec68"
+    }
+  ],
+  "scientific_evidence": {
+    "archived_verification": "PASS",
+    "sealed": true,
+    "public_publication": "NOT_READY",
+    "scope": "Archived-output arithmetic and inventory only; not complete reproducibility",
+    "checks": [
+      {
+        "check": "sha256_inventory",
+        "status": "PASS",
+        "required": true,
+        "detail": {
+          "files": 47,
+          "byte_identical_copies": 28,
+          "lossless_compressed_archives": 6,
+          "manifest_sha256": "48ce3f80a6d31c56e6dcedb90b8c5e6a59e3ea14a20579292c8c21edddf514e0"
+        }
+      },
+      {
+        "check": "main_estimator_records",
+        "status": "PASS",
+        "required": true,
+        "detail": {
+          "rows": 60000,
+          "cells": 120
+        }
+      },
+      {
+        "check": "main_summary_consistency",
+        "status": "PASS",
+        "required": true,
+        "detail": {
+          "cells": 120,
+          "all_summary_fields_checked": true
+        }
+      },
+      {
+        "check": "false_candidate_evaluations",
+        "status": "PASS",
+        "required": true,
+        "detail": {
+          "rows": 360000,
+          "cells": 720
+        }
+      },
+      {
+        "check": "finite_grid_records",
+        "status": "PASS",
+        "required": true,
+        "detail": {
+          "rows": 2460000,
+          "profiles": 60000
+        }
+      },
+      {
+        "check": "strength_calibration_saved_arithmetic",
+        "status": "PASS",
+        "required": true,
+        "detail": {
+          "rows": 800,
+          "cells": 8,
+          "refitted": false
+        }
+      },
+      {
+        "check": "displayed_main_numeric_tables",
+        "status": "PASS",
+        "required": true,
+        "detail": {
+          "main_performance_values": 180,
+          "strength_calibration_values": 48,
+          "scope": "Two displayed main numeric tables; copied W3 TeX, not rasterized figures or all appendix tables"
+        }
+      },
+      {
+        "check": "historical_stochastic_replay",
+        "status": "NOT_VERIFIABLE",
+        "required": false,
+        "detail": "Main worker penalty states not recovered; no simulation run"
+      },
+      {
+        "check": "complete_selected_case_certificate_replay",
+        "status": "NOT_VERIFIABLE",
+        "required": false,
+        "detail": "Exact-face prerequisite missing; numerical inputs not bundled; no certificate pipeline run"
+      },
+      {
+        "check": "raw_domain_profile_reconstruction",
+        "status": "NOT_VERIFIABLE",
+        "required": false,
+        "detail": "Only domain summaries bundled; original raw domain archive exists separately"
+      },
+      {
+        "check": "historical_R_installation",
+        "status": "SKIP",
+        "required": false,
+        "detail": "No R install or historical runner invoked"
+      },
+      {
+        "check": "inferential_calibration",
+        "status": "NOT_VERIFIABLE",
+        "required": false,
+        "detail": "Nominal chi-square validity not established by archived arithmetic"
+      }
+    ]
+  },
+  "dependencies": {
+    "all_article_assets_reachable": 33,
+    "latex_dependency_edges": 32,
+    "missing_latex_dependencies": [],
+    "R_loader_targets_exist": [
+      "code/src/environment/check_author_environment.R",
+      "code/config/extension_config.R",
+      "code/src/dgp_kappa.R",
+      "code/src/author_oracle_wrapper.R",
+      "code/src/author_full_wrapper.R",
+      "code/src/author_bc_dml_wrapper.R",
+      "code/src/metrics.R",
+      "code/src/run_extension.R"
+    ],
+    "relative_markdown_links_checked": 7,
+    "broken_relative_links": []
+  },
+  "named_anonymous": {
+    "same_content_character_multiset": true,
+    "named_length": 91656,
+    "anonymous_length": 91656,
+    "reason": "Float positions differ with author-block pagination; source conditions limited to author block, metadata and two identifying availability paragraphs."
+  },
+  "six_adversarial_tests": "PASS",
+  "seven_reconstructed_outputs_byte_identical": "PASS",
+  "export_findings": "PASS; values 0.942 / 3.9 / 0.094 retained; no estimator executed",
+  "anonymous_pdf": {
+    "text_metadata_links_and_xml_identifying_terms_absent": true,
+    "empty_author_metadata": true,
+    "metadata_stream": false,
+    "embedded_files": 0
+  },
+  "scientific_source_preservation": {
+    "all_48_code_files_including_manifest_byte_identical": true,
+    "32_nonmaster_article_assets_byte_identical": true,
+    "main_tex": "Exactly the previously approved editorial line inserted; removing it reproduces the original master byte-for-byte"
+  },
+  "build_logs": "C:\\Users\\User\\AppData\\Local\\Temp\\ivqr-audit-checkpoint-20261126-7iyynn9q\\build-after"
+}

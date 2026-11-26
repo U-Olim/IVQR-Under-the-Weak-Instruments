@@ -22,3 +22,10 @@ venv/
 *.bak
 /build/
 article/*.pdf
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.lof
+*.lot
+.audit-session.json
